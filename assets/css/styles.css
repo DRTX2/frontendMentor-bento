@@ -1,0 +1,42 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+:root{
+    --white: hsl(0, 0%, 100%);
+    --purple-off: hsl(254, 88%, 90%);
+    --purple:hsl(256, 67%, 59%);
+    --yellow-off:hsl(31, 66%, 93%);
+    --yellow:hsl(39, 100%, 71%);
+}
+
+body{
+    background-color: #eee;
+}
+.social-media-schedule{
+    background-color: var(--purple-off)
+}
+.social-media,
+.grow-followers{
+    background-color: var(--purple) 
+}
+
+.post{
+    background-color: var(--yellow-off);
+}
+
+.content-ai,
+.posting-schedule{
+    background-color: var(--yellow);
+}
+
+.account,
+.percent{
+    background-color: var(--white);
+}
+
+main > * {
+    border-radius: 2rem;
+}
